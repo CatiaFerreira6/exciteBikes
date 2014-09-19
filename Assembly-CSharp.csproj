@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{6677500D-3444-2097-345F-42967608B6A0}</ProjectGuid>
+	<ProjectGuid>{F3323E1D-5AD0-00E9-D4BA-B7E479FBB51B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BikeControl.cs" />
-     <Compile Include="Assets\SmoothCamera2D.cs" />
+     <Compile Include="Assets\ChunkBehaviour.cs" />
+     <Compile Include="Assets\PlayerControl.cs" />
+     <Compile Include="Assets\SpawingScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
